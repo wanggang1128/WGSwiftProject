@@ -13,6 +13,7 @@
 		32451D012241E6FA000577EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32451CFF2241E6FA000577EE /* LaunchScreen.storyboard */; };
 		32451D0C2241E6FA000577EE /* WGSwiftProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32451D0B2241E6FA000577EE /* WGSwiftProjectTests.swift */; };
 		32451D172241E6FA000577EE /* WGSwiftProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32451D162241E6FA000577EE /* WGSwiftProjectUITests.swift */; };
+		32451D2722420AE2000577EE /* WGTimepieceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32451D2622420AE2000577EE /* WGTimepieceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		32451D122241E6FA000577EE /* WGSwiftProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WGSwiftProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32451D162241E6FA000577EE /* WGSwiftProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGSwiftProjectUITests.swift; sourceTree = "<group>"; };
 		32451D182241E6FA000577EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32451D2622420AE2000577EE /* WGTimepieceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGTimepieceViewController.swift; sourceTree = "<group>"; };
+		32451D2822421948000577EE /* WGSwiftProject.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGSwiftProject.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,12 +98,8 @@
 		32451CF52241E6F8000577EE /* WGSwiftProject */ = {
 			isa = PBXGroup;
 			children = (
+				32451D2522420931000577EE /* mainFile */,
 				32451D242241E9F9000577EE /* demo01_ timepiece */,
-				32451CF62241E6F8000577EE /* AppDelegate.swift */,
-				32451CF82241E6F8000577EE /* ViewController.swift */,
-				32451CFD2241E6FA000577EE /* Assets.xcassets */,
-				32451CFF2241E6FA000577EE /* LaunchScreen.storyboard */,
-				32451D022241E6FA000577EE /* Info.plist */,
 			);
 			path = WGSwiftProject;
 			sourceTree = "<group>";
@@ -126,8 +125,22 @@
 		32451D242241E9F9000577EE /* demo01_ timepiece */ = {
 			isa = PBXGroup;
 			children = (
+				32451D2622420AE2000577EE /* WGTimepieceViewController.swift */,
 			);
 			path = "demo01_ timepiece";
+			sourceTree = "<group>";
+		};
+		32451D2522420931000577EE /* mainFile */ = {
+			isa = PBXGroup;
+			children = (
+				32451CF62241E6F8000577EE /* AppDelegate.swift */,
+				32451CF82241E6F8000577EE /* ViewController.swift */,
+				32451CFF2241E6FA000577EE /* LaunchScreen.storyboard */,
+				32451D022241E6FA000577EE /* Info.plist */,
+				32451CFD2241E6FA000577EE /* Assets.xcassets */,
+				32451D2822421948000577EE /* WGSwiftProject.pch */,
+			);
+			path = mainFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +205,10 @@
 		32451CEB2241E6F8000577EE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WG;
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
-				ORGANIZATIONNAME = bozhong;
+				ORGANIZATIONNAME = wangg;
 				TargetAttributes = {
 					32451CF22241E6F8000577EE = {
 						CreatedOnToolsVersion = 10.0;
@@ -261,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32451CF92241E6F8000577EE /* ViewController.swift in Sources */,
+				32451D2722420AE2000577EE /* WGTimepieceViewController.swift in Sources */,
 				32451CF72241E6F8000577EE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,7 +445,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49T87S5RLN;
-				INFOPLIST_FILE = WGSwiftProject/Info.plist;
+				INFOPLIST_FILE = WGSwiftProject/mainFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,7 +463,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49T87S5RLN;
-				INFOPLIST_FILE = WGSwiftProject/Info.plist;
+				INFOPLIST_FILE = WGSwiftProject/mainFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -508,6 +523,8 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49T87S5RLN;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WGSwiftProject/mainFile/WGSwiftProject.pch;
 				INFOPLIST_FILE = WGSwiftProjectUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -528,6 +545,8 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49T87S5RLN;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WGSwiftProject/mainFile/WGSwiftProject.pch;
 				INFOPLIST_FILE = WGSwiftProjectUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

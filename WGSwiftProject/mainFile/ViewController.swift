@@ -8,6 +8,10 @@
 
 import UIKit
 
+let WgRect = UIScreen.main.bounds
+let WgWith = WgRect.size.width
+let WgHeight = WgRect.size.height
+
 class ViewController: UIViewController {
 
     let tableView = UITableView.init(frame: UIScreen.main.bounds, style: .plain)
@@ -56,6 +60,9 @@ extension ViewController:UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         tableView.deselectRow(at: indexPath, animated: true)
+        
+        let vc = WGTimepieceViewController.init()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
 }

@@ -1,0 +1,14 @@
+//
+//  WGSwiftProject.pch
+//  WGSwiftProject
+//
+//  Created by wanggang on 2019/3/20.
+//  Copyright © 2019 wangg. All rights reserved.
+//
+
+#ifndef WGSwiftProject_pch
+#define WGSwiftProject_pch
+
+
+
+#endif /* WGSwiftProject_pch */
