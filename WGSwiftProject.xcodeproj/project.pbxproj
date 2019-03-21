@@ -15,6 +15,12 @@
 		32451D172241E6FA000577EE /* WGSwiftProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32451D162241E6FA000577EE /* WGSwiftProjectUITests.swift */; };
 		32451D2722420AE2000577EE /* WGTimepieceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32451D2622420AE2000577EE /* WGTimepieceViewController.swift */; };
 		32451D2D22424E69000577EE /* WGCustomFontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32451D2C22424E69000577EE /* WGCustomFontViewController.swift */; };
+		32A0D8F2224354AA00665F30 /* WGVideoPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0D8F1224354AA00665F30 /* WGVideoPlayViewController.swift */; };
+		32A0D8F4224354E000665F30 /* WGVideoPlayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0D8F3224354E000665F30 /* WGVideoPlayTableViewCell.swift */; };
+		32A0D8F8224358DE00665F30 /* WGSwiftProjectHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0D8F7224358DE00665F30 /* WGSwiftProjectHeader.swift */; };
+		32A0D8FA2243595300665F30 /* UIView_WGFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0D8F92243595300665F30 /* UIView_WGFrame.swift */; };
+		32A0D9002243628400665F30 /* WGVideoPlayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0D8FF2243628400665F30 /* WGVideoPlayModel.swift */; };
+		32A0D9032243716D00665F30 /* emoji zone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 32A0D9022243716D00665F30 /* emoji zone.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +54,13 @@
 		32451D162241E6FA000577EE /* WGSwiftProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGSwiftProjectUITests.swift; sourceTree = "<group>"; };
 		32451D182241E6FA000577EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32451D2622420AE2000577EE /* WGTimepieceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGTimepieceViewController.swift; sourceTree = "<group>"; };
-		32451D2822421948000577EE /* WGSwiftProject.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGSwiftProject.pch; sourceTree = "<group>"; };
 		32451D2C22424E69000577EE /* WGCustomFontViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGCustomFontViewController.swift; sourceTree = "<group>"; };
+		32A0D8F1224354AA00665F30 /* WGVideoPlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGVideoPlayViewController.swift; sourceTree = "<group>"; };
+		32A0D8F3224354E000665F30 /* WGVideoPlayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGVideoPlayTableViewCell.swift; sourceTree = "<group>"; };
+		32A0D8F7224358DE00665F30 /* WGSwiftProjectHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGSwiftProjectHeader.swift; sourceTree = "<group>"; };
+		32A0D8F92243595300665F30 /* UIView_WGFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView_WGFrame.swift; sourceTree = "<group>"; };
+		32A0D8FF2243628400665F30 /* WGVideoPlayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGVideoPlayModel.swift; sourceTree = "<group>"; };
+		32A0D9022243716D00665F30 /* emoji zone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "emoji zone.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +111,8 @@
 		32451CF52241E6F8000577EE /* WGSwiftProject */ = {
 			isa = PBXGroup;
 			children = (
+				32A0D9012243715600665F30 /* sources */,
+				32A0D8F02243540A00665F30 /* demo03_videoPlayer */,
 				32451D242241E9F9000577EE /* demo01_ timepiece */,
 				32451D2B22424E3A000577EE /* demo02_customFont */,
 				32451D2522420931000577EE /* mainFile */,
@@ -141,7 +154,8 @@
 				32451CFF2241E6FA000577EE /* LaunchScreen.storyboard */,
 				32451D022241E6FA000577EE /* Info.plist */,
 				32451CFD2241E6FA000577EE /* Assets.xcassets */,
-				32451D2822421948000577EE /* WGSwiftProject.pch */,
+				32A0D8F7224358DE00665F30 /* WGSwiftProjectHeader.swift */,
+				32A0D8F92243595300665F30 /* UIView_WGFrame.swift */,
 			);
 			path = mainFile;
 			sourceTree = "<group>";
@@ -152,6 +166,24 @@
 				32451D2C22424E69000577EE /* WGCustomFontViewController.swift */,
 			);
 			path = demo02_customFont;
+			sourceTree = "<group>";
+		};
+		32A0D8F02243540A00665F30 /* demo03_videoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				32A0D8F1224354AA00665F30 /* WGVideoPlayViewController.swift */,
+				32A0D8F3224354E000665F30 /* WGVideoPlayTableViewCell.swift */,
+				32A0D8FF2243628400665F30 /* WGVideoPlayModel.swift */,
+			);
+			path = demo03_videoPlayer;
+			sourceTree = "<group>";
+		};
+		32A0D9012243715600665F30 /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				32A0D9022243716D00665F30 /* emoji zone.mp4 */,
+			);
+			path = sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32A0D9032243716D00665F30 /* emoji zone.mp4 in Resources */,
 				32451D012241E6FA000577EE /* LaunchScreen.storyboard in Resources */,
 				32451CFE2241E6FA000577EE /* Assets.xcassets in Resources */,
 			);
@@ -285,8 +318,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32A0D8FA2243595300665F30 /* UIView_WGFrame.swift in Sources */,
+				32A0D8F8224358DE00665F30 /* WGSwiftProjectHeader.swift in Sources */,
 				32451D2D22424E69000577EE /* WGCustomFontViewController.swift in Sources */,
+				32A0D8F4224354E000665F30 /* WGVideoPlayTableViewCell.swift in Sources */,
+				32A0D8F2224354AA00665F30 /* WGVideoPlayViewController.swift in Sources */,
 				32451CF92241E6F8000577EE /* ViewController.swift in Sources */,
+				32A0D9002243628400665F30 /* WGVideoPlayModel.swift in Sources */,
 				32451D2722420AE2000577EE /* WGTimepieceViewController.swift in Sources */,
 				32451CF72241E6F8000577EE /* AppDelegate.swift in Sources */,
 			);
@@ -535,8 +573,8 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49T87S5RLN;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = WGSwiftProject/mainFile/WGSwiftProject.pch;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = WGSwiftProjectUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -557,8 +595,8 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49T87S5RLN;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = WGSwiftProject/mainFile/WGSwiftProject.pch;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = WGSwiftProjectUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

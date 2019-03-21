@@ -8,14 +8,10 @@
 
 import UIKit
 
-let WgRect = UIScreen.main.bounds
-let WgWith = WgRect.size.width
-let WgHeight = WgRect.size.height
-
 class ViewController: UIViewController {
 
     let tableView = UITableView.init(frame: UIScreen.main.bounds, style: .plain)
-    let dataArr = ["demo01_ timepiece:定时器", "demo02_customFont:变换字体"]
+    let dataArr = ["demo01_ timepiece:定时器", "demo02_customFont:变换字体", "demo03_videoPlayer:视频播放器"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -65,13 +61,13 @@ extension ViewController:UITableViewDelegate, UITableViewDataSource{
         case 0:
             let vc = WGTimepieceViewController.init()
             self.navigationController?.pushViewController(vc, animated: true)
-        default:
+        case 1:
             let vc = WGCustomFontViewController()
             self.navigationController?.pushViewController(vc, animated: true)
+        default:
+            let vc = WGVideoPlayViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
         }
-        
-        
     }
-    
 }
 
