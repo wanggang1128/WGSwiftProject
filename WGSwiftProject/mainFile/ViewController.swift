@@ -15,7 +15,7 @@ let WgHeight = WgRect.size.height
 class ViewController: UIViewController {
 
     let tableView = UITableView.init(frame: UIScreen.main.bounds, style: .plain)
-    let dataArr = ["demo01_ timepiece:定时器"]
+    let dataArr = ["demo01_ timepiece:定时器", "demo02_customFont:变换字体"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -61,8 +61,16 @@ extension ViewController:UITableViewDelegate, UITableViewDataSource{
         
         tableView.deselectRow(at: indexPath, animated: true)
         
-        let vc = WGTimepieceViewController.init()
-        self.navigationController?.pushViewController(vc, animated: true)
+        switch indexPath.row {
+        case 0:
+            let vc = WGTimepieceViewController.init()
+            self.navigationController?.pushViewController(vc, animated: true)
+        default:
+            let vc = WGCustomFontViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+        
+        
     }
     
 }

@@ -14,6 +14,7 @@
 		32451D0C2241E6FA000577EE /* WGSwiftProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32451D0B2241E6FA000577EE /* WGSwiftProjectTests.swift */; };
 		32451D172241E6FA000577EE /* WGSwiftProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32451D162241E6FA000577EE /* WGSwiftProjectUITests.swift */; };
 		32451D2722420AE2000577EE /* WGTimepieceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32451D2622420AE2000577EE /* WGTimepieceViewController.swift */; };
+		32451D2D22424E69000577EE /* WGCustomFontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32451D2C22424E69000577EE /* WGCustomFontViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		32451D182241E6FA000577EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32451D2622420AE2000577EE /* WGTimepieceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGTimepieceViewController.swift; sourceTree = "<group>"; };
 		32451D2822421948000577EE /* WGSwiftProject.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGSwiftProject.pch; sourceTree = "<group>"; };
+		32451D2C22424E69000577EE /* WGCustomFontViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGCustomFontViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +100,9 @@
 		32451CF52241E6F8000577EE /* WGSwiftProject */ = {
 			isa = PBXGroup;
 			children = (
-				32451D2522420931000577EE /* mainFile */,
 				32451D242241E9F9000577EE /* demo01_ timepiece */,
+				32451D2B22424E3A000577EE /* demo02_customFont */,
+				32451D2522420931000577EE /* mainFile */,
 			);
 			path = WGSwiftProject;
 			sourceTree = "<group>";
@@ -141,6 +144,14 @@
 				32451D2822421948000577EE /* WGSwiftProject.pch */,
 			);
 			path = mainFile;
+			sourceTree = "<group>";
+		};
+		32451D2B22424E3A000577EE /* demo02_customFont */ = {
+			isa = PBXGroup;
+			children = (
+				32451D2C22424E69000577EE /* WGCustomFontViewController.swift */,
+			);
+			path = demo02_customFont;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32451D2D22424E69000577EE /* WGCustomFontViewController.swift in Sources */,
 				32451CF92241E6F8000577EE /* ViewController.swift in Sources */,
 				32451D2722420AE2000577EE /* WGTimepieceViewController.swift in Sources */,
 				32451CF72241E6F8000577EE /* AppDelegate.swift in Sources */,
