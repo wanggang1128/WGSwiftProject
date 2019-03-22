@@ -15,6 +15,7 @@
 		32451D172241E6FA000577EE /* WGSwiftProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32451D162241E6FA000577EE /* WGSwiftProjectUITests.swift */; };
 		32451D2722420AE2000577EE /* WGTimepieceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32451D2622420AE2000577EE /* WGTimepieceViewController.swift */; };
 		32451D2D22424E69000577EE /* WGCustomFontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32451D2C22424E69000577EE /* WGCustomFontViewController.swift */; };
+		3248AB152244AEC90002B7F1 /* WGLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3248AB142244AEC90002B7F1 /* WGLocationViewController.swift */; };
 		32A0D8F2224354AA00665F30 /* WGVideoPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0D8F1224354AA00665F30 /* WGVideoPlayViewController.swift */; };
 		32A0D8F4224354E000665F30 /* WGVideoPlayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0D8F3224354E000665F30 /* WGVideoPlayTableViewCell.swift */; };
 		32A0D8F8224358DE00665F30 /* WGSwiftProjectHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0D8F7224358DE00665F30 /* WGSwiftProjectHeader.swift */; };
@@ -58,6 +59,7 @@
 		32451D182241E6FA000577EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32451D2622420AE2000577EE /* WGTimepieceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGTimepieceViewController.swift; sourceTree = "<group>"; };
 		32451D2C22424E69000577EE /* WGCustomFontViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGCustomFontViewController.swift; sourceTree = "<group>"; };
+		3248AB142244AEC90002B7F1 /* WGLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGLocationViewController.swift; sourceTree = "<group>"; };
 		32A0D8F1224354AA00665F30 /* WGVideoPlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGVideoPlayViewController.swift; sourceTree = "<group>"; };
 		32A0D8F3224354E000665F30 /* WGVideoPlayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGVideoPlayTableViewCell.swift; sourceTree = "<group>"; };
 		32A0D8F7224358DE00665F30 /* WGSwiftProjectHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGSwiftProjectHeader.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 		32451CF52241E6F8000577EE /* WGSwiftProject */ = {
 			isa = PBXGroup;
 			children = (
+				3248AB132244AE880002B7F1 /* demo05_location */,
 				32A0D904224383C600665F30 /* demo04_carousel */,
 				32A0D9012243715600665F30 /* sources */,
 				32A0D8F02243540A00665F30 /* demo03_videoPlayer */,
@@ -173,6 +176,14 @@
 				32451D2C22424E69000577EE /* WGCustomFontViewController.swift */,
 			);
 			path = demo02_customFont;
+			sourceTree = "<group>";
+		};
+		3248AB132244AE880002B7F1 /* demo05_location */ = {
+			isa = PBXGroup;
+			children = (
+				3248AB142244AEC90002B7F1 /* WGLocationViewController.swift */,
+			);
+			path = demo05_location;
 			sourceTree = "<group>";
 		};
 		32A0D8F02243540A00665F30 /* demo03_videoPlayer */ = {
@@ -343,6 +354,7 @@
 				32A0D90A22438D5900665F30 /* WGCarouselModel.swift in Sources */,
 				32A0D90622438CE100665F30 /* WGCarouselViewController.swift in Sources */,
 				32A0D8F2224354AA00665F30 /* WGVideoPlayViewController.swift in Sources */,
+				3248AB152244AEC90002B7F1 /* WGLocationViewController.swift in Sources */,
 				32451CF92241E6F8000577EE /* ViewController.swift in Sources */,
 				32A0D9002243628400665F30 /* WGVideoPlayModel.swift in Sources */,
 				32451D2722420AE2000577EE /* WGTimepieceViewController.swift in Sources */,
@@ -516,6 +528,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49T87S5RLN;
 				INFOPLIST_FILE = WGSwiftProject/mainFile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -534,6 +547,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49T87S5RLN;
 				INFOPLIST_FILE = WGSwiftProject/mainFile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
