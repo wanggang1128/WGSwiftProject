@@ -8,6 +8,7 @@
 
 import Foundation
 
+// 定义Video的结构体，属性初始化后不能被改变，因为结构体时值类型。
 struct WGVideoPlayModel {
     
     let imageName: String

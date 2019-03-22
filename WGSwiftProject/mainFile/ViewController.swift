@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     let tableView = UITableView.init(frame: UIScreen.main.bounds, style: .plain)
-    let dataArr = ["demo01_ timepiece:定时器", "demo02_customFont:变换字体", "demo03_videoPlayer:视频播放器"]
+    let dataArr = ["demo01_ timepiece:定时器", "demo02_customFont:变换字体", "demo03_videoPlayer:视频播放器", "demo04_carousel:轮播图"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,6 +34,11 @@ class ViewController: UIViewController {
     }
 }
 
+//MARK:- UIViewTableView DataSource & Delegate
+// 知识点：扩展
+// 扩展和 Objective-C 中的分类类似，但没有名称
+// 扩展可以为一个类型添加新的功能，但是不能重写已有的功能。
+// 扩展可以添加新的计算型属性，但是不可以添加存储型属性，也不可以为已有属性添加属性观察器。
 extension ViewController:UITableViewDelegate, UITableViewDataSource{
     
     public func numberOfSections(in tableView: UITableView) -> Int {
@@ -64,8 +69,11 @@ extension ViewController:UITableViewDelegate, UITableViewDataSource{
         case 1:
             let vc = WGCustomFontViewController()
             self.navigationController?.pushViewController(vc, animated: true)
-        default:
+        case 2:
             let vc = WGVideoPlayViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        default:
+            let vc = WGCarouselViewController()
             self.navigationController?.pushViewController(vc, animated: true)
         }
     }

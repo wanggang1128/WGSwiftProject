@@ -60,6 +60,9 @@ extension WGVideoPlayViewController: UITableViewDelegate, UITableViewDataSource{
     
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
+        // 知识点：向下转型
+        // as! 强制类型转换，无法转换时会抛出运行时异常
+        // as？可选类型转换，无法转换时返回nil
         let cell = tableView.dequeueReusableCell(withIdentifier: "WGVideoPlayTableViewCell", for: indexPath) as! WGVideoPlayTableViewCell
         let model = dataArr[indexPath.row];
         

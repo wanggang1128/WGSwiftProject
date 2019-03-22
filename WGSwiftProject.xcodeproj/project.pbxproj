@@ -21,6 +21,9 @@
 		32A0D8FA2243595300665F30 /* UIView_WGFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0D8F92243595300665F30 /* UIView_WGFrame.swift */; };
 		32A0D9002243628400665F30 /* WGVideoPlayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0D8FF2243628400665F30 /* WGVideoPlayModel.swift */; };
 		32A0D9032243716D00665F30 /* emoji zone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 32A0D9022243716D00665F30 /* emoji zone.mp4 */; };
+		32A0D90622438CE100665F30 /* WGCarouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0D90522438CE100665F30 /* WGCarouselViewController.swift */; };
+		32A0D90822438D0A00665F30 /* WGCarouselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0D90722438D0A00665F30 /* WGCarouselCollectionViewCell.swift */; };
+		32A0D90A22438D5900665F30 /* WGCarouselModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0D90922438D5900665F30 /* WGCarouselModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,9 @@
 		32A0D8F92243595300665F30 /* UIView_WGFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView_WGFrame.swift; sourceTree = "<group>"; };
 		32A0D8FF2243628400665F30 /* WGVideoPlayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGVideoPlayModel.swift; sourceTree = "<group>"; };
 		32A0D9022243716D00665F30 /* emoji zone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "emoji zone.mp4"; sourceTree = "<group>"; };
+		32A0D90522438CE100665F30 /* WGCarouselViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGCarouselViewController.swift; sourceTree = "<group>"; };
+		32A0D90722438D0A00665F30 /* WGCarouselCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGCarouselCollectionViewCell.swift; sourceTree = "<group>"; };
+		32A0D90922438D5900665F30 /* WGCarouselModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGCarouselModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,7 @@
 		32451CF52241E6F8000577EE /* WGSwiftProject */ = {
 			isa = PBXGroup;
 			children = (
+				32A0D904224383C600665F30 /* demo04_carousel */,
 				32A0D9012243715600665F30 /* sources */,
 				32A0D8F02243540A00665F30 /* demo03_videoPlayer */,
 				32451D242241E9F9000577EE /* demo01_ timepiece */,
@@ -184,6 +191,16 @@
 				32A0D9022243716D00665F30 /* emoji zone.mp4 */,
 			);
 			path = sources;
+			sourceTree = "<group>";
+		};
+		32A0D904224383C600665F30 /* demo04_carousel */ = {
+			isa = PBXGroup;
+			children = (
+				32A0D90522438CE100665F30 /* WGCarouselViewController.swift */,
+				32A0D90722438D0A00665F30 /* WGCarouselCollectionViewCell.swift */,
+				32A0D90922438D5900665F30 /* WGCarouselModel.swift */,
+			);
+			path = demo04_carousel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,6 +339,9 @@
 				32A0D8F8224358DE00665F30 /* WGSwiftProjectHeader.swift in Sources */,
 				32451D2D22424E69000577EE /* WGCustomFontViewController.swift in Sources */,
 				32A0D8F4224354E000665F30 /* WGVideoPlayTableViewCell.swift in Sources */,
+				32A0D90822438D0A00665F30 /* WGCarouselCollectionViewCell.swift in Sources */,
+				32A0D90A22438D5900665F30 /* WGCarouselModel.swift in Sources */,
+				32A0D90622438CE100665F30 /* WGCarouselViewController.swift in Sources */,
 				32A0D8F2224354AA00665F30 /* WGVideoPlayViewController.swift in Sources */,
 				32451CF92241E6F8000577EE /* ViewController.swift in Sources */,
 				32A0D9002243628400665F30 /* WGVideoPlayModel.swift in Sources */,
