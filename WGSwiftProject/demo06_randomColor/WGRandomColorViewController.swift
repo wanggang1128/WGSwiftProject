@@ -34,6 +34,8 @@ class WGRandomColorViewController: UIViewController {
         self.title = "渐变色"
         self.view.backgroundColor = UIColor.cyan
         
+        
+        
         playBtn.setBackgroundImage(UIImage(named: "music play"), for: .normal)
         playBtn.addTarget(self, action: #selector(playBtnClicked), for: .touchUpInside)
         view.addSubview(playBtn)
