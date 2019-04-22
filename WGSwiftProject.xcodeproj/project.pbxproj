@@ -27,6 +27,8 @@
 		32A0D90622438CE100665F30 /* WGCarouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0D90522438CE100665F30 /* WGCarouselViewController.swift */; };
 		32A0D90822438D0A00665F30 /* WGCarouselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0D90722438D0A00665F30 /* WGCarouselCollectionViewCell.swift */; };
 		32A0D90A22438D5900665F30 /* WGCarouselModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0D90922438D5900665F30 /* WGCarouselModel.swift */; };
+		32F2BB78226960C900DF6678 /* WGBtnAlphaControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F2BB77226960C900DF6678 /* WGBtnAlphaControl.swift */; };
+		32F2BB7A22696BAD00DF6678 /* WGBtnAlphaControlsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F2BB7922696BAD00DF6678 /* WGBtnAlphaControlsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		32A0D90522438CE100665F30 /* WGCarouselViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGCarouselViewController.swift; sourceTree = "<group>"; };
 		32A0D90722438D0A00665F30 /* WGCarouselCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGCarouselCollectionViewCell.swift; sourceTree = "<group>"; };
 		32A0D90922438D5900665F30 /* WGCarouselModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGCarouselModel.swift; sourceTree = "<group>"; };
+		32F2BB77226960C900DF6678 /* WGBtnAlphaControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGBtnAlphaControl.swift; sourceTree = "<group>"; };
+		32F2BB7922696BAD00DF6678 /* WGBtnAlphaControlsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGBtnAlphaControlsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,7 @@
 		32451CF52241E6F8000577EE /* WGSwiftProject */ = {
 			isa = PBXGroup;
 			children = (
+				32F2BB762269605300DF6678 /* demo07_btnAlphaControls */,
 				3248AB162244D03F0002B7F1 /* demo06_randomColor */,
 				32A0D9012243715600665F30 /* sources */,
 				3248AB132244AE880002B7F1 /* demo05_location */,
@@ -226,6 +231,15 @@
 				32A0D90922438D5900665F30 /* WGCarouselModel.swift */,
 			);
 			path = demo04_carousel;
+			sourceTree = "<group>";
+		};
+		32F2BB762269605300DF6678 /* demo07_btnAlphaControls */ = {
+			isa = PBXGroup;
+			children = (
+				32F2BB77226960C900DF6678 /* WGBtnAlphaControl.swift */,
+				32F2BB7922696BAD00DF6678 /* WGBtnAlphaControlsViewController.swift */,
+			);
+			path = demo07_btnAlphaControls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,11 +381,13 @@
 				32A0D8F4224354E000665F30 /* WGVideoPlayTableViewCell.swift in Sources */,
 				32A0D90822438D0A00665F30 /* WGCarouselCollectionViewCell.swift in Sources */,
 				32A0D90A22438D5900665F30 /* WGCarouselModel.swift in Sources */,
+				32F2BB78226960C900DF6678 /* WGBtnAlphaControl.swift in Sources */,
 				32A0D90622438CE100665F30 /* WGCarouselViewController.swift in Sources */,
 				32A0D8F2224354AA00665F30 /* WGVideoPlayViewController.swift in Sources */,
 				3248AB152244AEC90002B7F1 /* WGLocationViewController.swift in Sources */,
 				3248AB182244D09F0002B7F1 /* WGRandomColorViewController.swift in Sources */,
 				32451CF92241E6F8000577EE /* ViewController.swift in Sources */,
+				32F2BB7A22696BAD00DF6678 /* WGBtnAlphaControlsViewController.swift in Sources */,
 				32A0D9002243628400665F30 /* WGVideoPlayModel.swift in Sources */,
 				32451D2722420AE2000577EE /* WGTimepieceViewController.swift in Sources */,
 				32451CF72241E6F8000577EE /* AppDelegate.swift in Sources */,
