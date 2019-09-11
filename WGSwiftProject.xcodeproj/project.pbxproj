@@ -18,6 +18,7 @@
 		3248AB152244AEC90002B7F1 /* WGLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3248AB142244AEC90002B7F1 /* WGLocationViewController.swift */; };
 		3248AB182244D09F0002B7F1 /* WGRandomColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3248AB172244D09F0002B7F1 /* WGRandomColorViewController.swift */; };
 		3248AB1A2244D61C0002B7F1 /* Ecstasy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3248AB192244D61C0002B7F1 /* Ecstasy.mp3 */; };
+		32695CAF232791A400DE3926 /* WGTwoDimensionalArrayFind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32695CAE232791A400DE3926 /* WGTwoDimensionalArrayFind.swift */; };
 		32A0D8F2224354AA00665F30 /* WGVideoPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0D8F1224354AA00665F30 /* WGVideoPlayViewController.swift */; };
 		32A0D8F4224354E000665F30 /* WGVideoPlayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0D8F3224354E000665F30 /* WGVideoPlayTableViewCell.swift */; };
 		32A0D8F8224358DE00665F30 /* WGSwiftProjectHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0D8F7224358DE00665F30 /* WGSwiftProjectHeader.swift */; };
@@ -27,6 +28,8 @@
 		32A0D90622438CE100665F30 /* WGCarouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0D90522438CE100665F30 /* WGCarouselViewController.swift */; };
 		32A0D90822438D0A00665F30 /* WGCarouselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0D90722438D0A00665F30 /* WGCarouselCollectionViewCell.swift */; };
 		32A0D90A22438D5900665F30 /* WGCarouselModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0D90922438D5900665F30 /* WGCarouselModel.swift */; };
+		32A61186231647CB004D27FC /* WGThreadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A61185231647CB004D27FC /* WGThreadViewController.swift */; };
+		32A6118B23165FEC004D27FC /* WGAlgorithmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A6118A23165FEC004D27FC /* WGAlgorithmViewController.swift */; };
 		32F2BB78226960C900DF6678 /* WGBtnAlphaControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F2BB77226960C900DF6678 /* WGBtnAlphaControl.swift */; };
 		32F2BB7A22696BAD00DF6678 /* WGBtnAlphaControlsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F2BB7922696BAD00DF6678 /* WGBtnAlphaControlsViewController.swift */; };
 /* End PBXBuildFile section */
@@ -66,6 +69,7 @@
 		3248AB142244AEC90002B7F1 /* WGLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGLocationViewController.swift; sourceTree = "<group>"; };
 		3248AB172244D09F0002B7F1 /* WGRandomColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGRandomColorViewController.swift; sourceTree = "<group>"; };
 		3248AB192244D61C0002B7F1 /* Ecstasy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ecstasy.mp3; sourceTree = "<group>"; };
+		32695CAE232791A400DE3926 /* WGTwoDimensionalArrayFind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGTwoDimensionalArrayFind.swift; sourceTree = "<group>"; };
 		32A0D8F1224354AA00665F30 /* WGVideoPlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGVideoPlayViewController.swift; sourceTree = "<group>"; };
 		32A0D8F3224354E000665F30 /* WGVideoPlayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGVideoPlayTableViewCell.swift; sourceTree = "<group>"; };
 		32A0D8F7224358DE00665F30 /* WGSwiftProjectHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGSwiftProjectHeader.swift; sourceTree = "<group>"; };
@@ -75,6 +79,8 @@
 		32A0D90522438CE100665F30 /* WGCarouselViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGCarouselViewController.swift; sourceTree = "<group>"; };
 		32A0D90722438D0A00665F30 /* WGCarouselCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGCarouselCollectionViewCell.swift; sourceTree = "<group>"; };
 		32A0D90922438D5900665F30 /* WGCarouselModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGCarouselModel.swift; sourceTree = "<group>"; };
+		32A61185231647CB004D27FC /* WGThreadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGThreadViewController.swift; sourceTree = "<group>"; };
+		32A6118A23165FEC004D27FC /* WGAlgorithmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGAlgorithmViewController.swift; sourceTree = "<group>"; };
 		32F2BB77226960C900DF6678 /* WGBtnAlphaControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGBtnAlphaControl.swift; sourceTree = "<group>"; };
 		32F2BB7922696BAD00DF6678 /* WGBtnAlphaControlsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGBtnAlphaControlsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,15 +133,17 @@
 		32451CF52241E6F8000577EE /* WGSwiftProject */ = {
 			isa = PBXGroup;
 			children = (
+				32A6118723165F33004D27FC /* demo09_algorithm */,
+				32A6118423164762004D27FC /* demo08_multithread */,
 				32F2BB762269605300DF6678 /* demo07_btnAlphaControls */,
 				3248AB162244D03F0002B7F1 /* demo06_randomColor */,
-				32A0D9012243715600665F30 /* sources */,
 				3248AB132244AE880002B7F1 /* demo05_location */,
 				32A0D904224383C600665F30 /* demo04_carousel */,
 				32A0D8F02243540A00665F30 /* demo03_videoPlayer */,
-				32451D242241E9F9000577EE /* demo01_ timepiece */,
 				32451D2B22424E3A000577EE /* demo02_customFont */,
+				32451D242241E9F9000577EE /* demo01_ timepiece */,
 				32451D2522420931000577EE /* mainFile */,
+				32A0D9012243715600665F30 /* sources */,
 			);
 			path = WGSwiftProject;
 			sourceTree = "<group>";
@@ -231,6 +239,23 @@
 				32A0D90922438D5900665F30 /* WGCarouselModel.swift */,
 			);
 			path = demo04_carousel;
+			sourceTree = "<group>";
+		};
+		32A6118423164762004D27FC /* demo08_multithread */ = {
+			isa = PBXGroup;
+			children = (
+				32A61185231647CB004D27FC /* WGThreadViewController.swift */,
+			);
+			path = demo08_multithread;
+			sourceTree = "<group>";
+		};
+		32A6118723165F33004D27FC /* demo09_algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				32A6118A23165FEC004D27FC /* WGAlgorithmViewController.swift */,
+				32695CAE232791A400DE3926 /* WGTwoDimensionalArrayFind.swift */,
+			);
+			path = demo09_algorithm;
 			sourceTree = "<group>";
 		};
 		32F2BB762269605300DF6678 /* demo07_btnAlphaControls */ = {
@@ -377,13 +402,16 @@
 			files = (
 				32A0D8FA2243595300665F30 /* UIView_WGFrame.swift in Sources */,
 				32A0D8F8224358DE00665F30 /* WGSwiftProjectHeader.swift in Sources */,
+				32A61186231647CB004D27FC /* WGThreadViewController.swift in Sources */,
 				32451D2D22424E69000577EE /* WGCustomFontViewController.swift in Sources */,
+				32A6118B23165FEC004D27FC /* WGAlgorithmViewController.swift in Sources */,
 				32A0D8F4224354E000665F30 /* WGVideoPlayTableViewCell.swift in Sources */,
 				32A0D90822438D0A00665F30 /* WGCarouselCollectionViewCell.swift in Sources */,
 				32A0D90A22438D5900665F30 /* WGCarouselModel.swift in Sources */,
 				32F2BB78226960C900DF6678 /* WGBtnAlphaControl.swift in Sources */,
 				32A0D90622438CE100665F30 /* WGCarouselViewController.swift in Sources */,
 				32A0D8F2224354AA00665F30 /* WGVideoPlayViewController.swift in Sources */,
+				32695CAF232791A400DE3926 /* WGTwoDimensionalArrayFind.swift in Sources */,
 				3248AB152244AEC90002B7F1 /* WGLocationViewController.swift in Sources */,
 				3248AB182244D09F0002B7F1 /* WGRandomColorViewController.swift in Sources */,
 				32451CF92241E6F8000577EE /* ViewController.swift in Sources */,

@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     let tableView = UITableView.init(frame: UIScreen.main.bounds, style: .plain)
-    let dataArr = ["demo01_ timepiece:定时器", "demo02_customFont:变换字体", "demo03_videoPlayer:视频播放器", "demo04_carousel:轮播图", "demo05_location:定位", "demo06_randomColor:渐变色", "demo06_btnAlphaControls:按钮图文混排"]
+    let dataArr = ["demo01_ timepiece:定时器", "demo02_customFont:变换字体", "demo03_videoPlayer:视频播放器", "demo04_carousel:轮播图", "demo05_location:定位", "demo06_randomColor:渐变色", "demo07_btnAlphaControls:按钮图文混排", "demo08_multithread:多线程", "demo09_algorithm:算法"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -83,6 +83,13 @@ extension ViewController:UITableViewDelegate, UITableViewDataSource{
             self.navigationController?.pushViewController(vc, animated: true)
         case 6:
             let vc = WGBtnAlphaControlsViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case 7:
+            let vc = WGThreadViewController()
+            self.navigationController?.pushViewController(vc, animated: true)
+            
+        case 8:
+            let vc = WGAlgorithmViewController()
             self.navigationController?.pushViewController(vc, animated: true)
             
         default:

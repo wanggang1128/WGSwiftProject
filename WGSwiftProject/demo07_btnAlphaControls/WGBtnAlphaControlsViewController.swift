@@ -46,5 +46,53 @@ class WGBtnAlphaControlsViewController: UIViewController {
         btnRight.backgroundColor = UIColor.cyan
         btnRight.set(image: UIImage(named: "btnAlphaControl"), title: "标题在右边", titlePosition: .right, space: 10, state: .normal)
         view.addSubview(btnRight)
+        
+        
+        
+        
+        
+        
+        let p = Person()
+        //监听不到 存储属性
+        print("------")
+        print("默认值:\(p.avarageScore)")
+        
+        p.avarageScore = 11
+        
+        print("最终平均值结果 \(p.avarageScore)")
+        
     }
+
 }
+
+
+class Person {
+    
+    //1.存储属性
+    var mathScore :Double = 0.0
+    var chineseScore : Double = 0.0
+    
+    //最终成绩, 存储属性
+    private var score: Double = 0.0
+    
+    init(x : Double){
+        avarageScore = x
+    }
+    
+    init() {
+    }
+    
+    //存储属性
+    var avarageScore : Double = 0 {
+        willSet {
+            //newValue
+            print("avarageScore即将发生改变 newValue = \(newValue), value = \(avarageScore)")
+        }
+        didSet {
+            //oldValue
+            print("avarageScore已经发生改变 oldValue = \(oldValue), value = \(avarageScore)")
+        }
+    }
+    
+}
+
