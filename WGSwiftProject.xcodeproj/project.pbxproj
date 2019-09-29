@@ -18,6 +18,7 @@
 		3248AB152244AEC90002B7F1 /* WGLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3248AB142244AEC90002B7F1 /* WGLocationViewController.swift */; };
 		3248AB182244D09F0002B7F1 /* WGRandomColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3248AB172244D09F0002B7F1 /* WGRandomColorViewController.swift */; };
 		3248AB1A2244D61C0002B7F1 /* Ecstasy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3248AB192244D61C0002B7F1 /* Ecstasy.mp3 */; };
+		325889F82332185F009EC972 /* WGPickViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325889F72332185F009EC972 /* WGPickViewViewController.swift */; };
 		32695CAF232791A400DE3926 /* WGTwoDimensionalArrayFind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32695CAE232791A400DE3926 /* WGTwoDimensionalArrayFind.swift */; };
 		32A0D8F2224354AA00665F30 /* WGVideoPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0D8F1224354AA00665F30 /* WGVideoPlayViewController.swift */; };
 		32A0D8F4224354E000665F30 /* WGVideoPlayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A0D8F3224354E000665F30 /* WGVideoPlayTableViewCell.swift */; };
@@ -69,6 +70,7 @@
 		3248AB142244AEC90002B7F1 /* WGLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGLocationViewController.swift; sourceTree = "<group>"; };
 		3248AB172244D09F0002B7F1 /* WGRandomColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGRandomColorViewController.swift; sourceTree = "<group>"; };
 		3248AB192244D61C0002B7F1 /* Ecstasy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ecstasy.mp3; sourceTree = "<group>"; };
+		325889F72332185F009EC972 /* WGPickViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGPickViewViewController.swift; sourceTree = "<group>"; };
 		32695CAE232791A400DE3926 /* WGTwoDimensionalArrayFind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGTwoDimensionalArrayFind.swift; sourceTree = "<group>"; };
 		32A0D8F1224354AA00665F30 /* WGVideoPlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGVideoPlayViewController.swift; sourceTree = "<group>"; };
 		32A0D8F3224354E000665F30 /* WGVideoPlayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WGVideoPlayTableViewCell.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 		32451CF52241E6F8000577EE /* WGSwiftProject */ = {
 			isa = PBXGroup;
 			children = (
+				325889F62332181B009EC972 /* demo10_pickView */,
 				32A6118723165F33004D27FC /* demo09_algorithm */,
 				32A6118423164762004D27FC /* demo08_multithread */,
 				32F2BB762269605300DF6678 /* demo07_btnAlphaControls */,
@@ -210,6 +213,14 @@
 				3248AB172244D09F0002B7F1 /* WGRandomColorViewController.swift */,
 			);
 			path = demo06_randomColor;
+			sourceTree = "<group>";
+		};
+		325889F62332181B009EC972 /* demo10_pickView */ = {
+			isa = PBXGroup;
+			children = (
+				325889F72332185F009EC972 /* WGPickViewViewController.swift */,
+			);
+			path = demo10_pickView;
 			sourceTree = "<group>";
 		};
 		32A0D8F02243540A00665F30 /* demo03_videoPlayer */ = {
@@ -404,6 +415,7 @@
 				32A0D8F8224358DE00665F30 /* WGSwiftProjectHeader.swift in Sources */,
 				32A61186231647CB004D27FC /* WGThreadViewController.swift in Sources */,
 				32451D2D22424E69000577EE /* WGCustomFontViewController.swift in Sources */,
+				325889F82332185F009EC972 /* WGPickViewViewController.swift in Sources */,
 				32A6118B23165FEC004D27FC /* WGAlgorithmViewController.swift in Sources */,
 				32A0D8F4224354E000665F30 /* WGVideoPlayTableViewCell.swift in Sources */,
 				32A0D90822438D0A00665F30 /* WGCarouselCollectionViewCell.swift in Sources */,
